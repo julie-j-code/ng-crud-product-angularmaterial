@@ -1,0 +1,77 @@
+{
+  "productList": [
+    {
+      "productName": "Apple Lady",
+      "category": "Fruits",
+      "freshness": "Refurbished",
+      "price": 100,
+      "comment": "this apple from kashmir",
+      "date": "2022-09-21T18:30:00.000Z",
+      "id": 6
+    },
+    {
+      "productName": "Laptop",
+      "category": "Electronic",
+      "freshness": "Old",
+      "price": 1000,
+      "comment": "i5 7gen 8gb 400gb",
+      "date": "2022-08-07T18:30:00.000Z",
+      "id": 7
+    },
+    {
+      "productName": "Potato",
+      "category": "Vegetables",
+      "freshness": "Brand New",
+      "price": 10,
+      "comment": "Fresh Potato ",
+      "date": "2022-07-04T18:30:00.000Z",
+      "id": 8
+    },
+    {
+      "productName": "Mobile",
+      "category": "Electronic",
+      "freshness": "Refurbished",
+      "price": 1200,
+      "comment": "Redmi Note 10 pro",
+      "date": "2022-09-25T18:30:00.000Z",
+      "id": 9
+    },
+    {
+      "productName": "Tomato",
+      "category": "Vegetables",
+      "freshness": "Old",
+      "price": 120,
+      "comment": "Red and Fresh Tomato",
+      "date": "2022-06-05T18:30:00.000Z",
+      "id": 10
+    },
+    {
+      "productName": "Mango",
+      "category": "Fruits",
+      "freshness": "Old",
+      "price": 200,
+      "comment": "Mango is famous in Summer session",
+      "date": "2022-08-21T18:30:00.000Z",
+      "id": 11
+    },
+    {
+      "productName": "One Plus 9",
+      "category": "Electronic",
+      "freshness": "Old",
+      "price": 1240,
+      "comment": "Latest model of OnePlus device",
+      "date": "2022-08-14T18:30:00.000Z",
+      "id": 12
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
