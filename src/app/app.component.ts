@@ -13,7 +13,7 @@ import {MatTableDataSource} from '@angular/material/table';
 })
 
 export class AppComponent implements OnInit {
-  title = 'Angular13Crud';
+  title = 'AngularCrud';
   displayedColumns: string[] = ['productName', 'category', 'date', 'freshness', 'price', 'comment','action'];
   dataSource !: MatTableDataSource<any>;
 
