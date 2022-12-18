@@ -1,12 +1,20 @@
 {
   "name": "ng-crud-jsonserver-materialui",
   "version": "0.0.0",
+  "engines":{
+    "node": "v16.13.2"
+  },
+
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "app" : "ng s --live-reload false",
+    "json:server" : "json-server --watch db.json",
+    "build": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
+    "start:app:server":"concurrently kill-others \"npm run json:server\" \"npm run app\"",
     "test": "ng test"
+
   },
   "private": true,
   "dependencies": {

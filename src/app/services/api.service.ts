@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root'
@@ -7,20 +8,23 @@ import { Injectable } from '@angular/core';
 export class ApiService {
 
   constructor(private http:HttpClient) { }
+  private readonly API=environment.API;
 
   postProduct(data:any){
-    return this.http.post<any>("http://localhost:3000/productList/",data);
+    return this.http.post<any>(this.API+"/productList/",data);
   }
 
   getProduct(){
-    return this.http.get<any>("http://localhost:3000/productList/")
+    return this.http.get<any>(this.API+"/productList/")
   }
 
   putProduct(data:any,id:number){
-    return this.http.put<any>("http://localhost:3000/productList/"+id,data)
+    return this.http.put<any>(this.API+"/productList/"+id,data)
   }
 
   deleteProduct(id:number){
-    return this.http.delete<any>("http://localhost:3000/productList/"+id)
+    return this.http.delete<any>(this.API+"/productList/"+id)
   }
 }
+
+
